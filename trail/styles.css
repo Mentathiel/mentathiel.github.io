@@ -1,0 +1,74 @@
+body {
+	overflow: hidden;
+}
+
+#bckg {
+	background-image: url("back.png");
+	background-size: cover;
+    position:fixed;
+    width:100%;
+    height:100%;
+    top:0px;
+    left:0px;
+    z-index:1000;
+}
+
+#plank {
+	background-image: url("plank-empty.svg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+	width: 75%;
+	height: 90%;
+	min-width: 250px;
+	margin:0;
+
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+#buttons {
+	position: absolute;
+	width: 30%;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.mybtn {
+	margin: 5px 0 0 0;
+	width: 100%;
+	min-height: 100px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+}
+
+#win {
+    background-image: url('windows-idle.svg');
+
+}
+
+#win:hover {
+    background-image: url('windows-hover.svg');
+}
+
+#lin {
+    background-image: url('linux-idle.svg');
+
+}
+
+#lin:hover {
+    background-image: url('linux-hover.svg');
+}
+
+#git {
+    background-image: url('github-idle.svg');
+
+}
+
+#git:hover {
+    background-image: url('github-hover.svg');
+}
