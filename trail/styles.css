@@ -65,10 +65,10 @@ body {
 }
 
 #git {
-    background-image: url('github-idle.svg');
+    background-image: url('gitlab-idle.svg');
 
 }
 
 #git:hover {
-    background-image: url('github-hover.svg');
+    background-image: url('gitlab-hover.svg');
 }
